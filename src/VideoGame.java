@@ -4,7 +4,7 @@ public class VideoGame {
     private int gameStock;
     private String gameType;
     public enum gameTypeList{
-        Sports,Strategy,Simulation,Fighting,Adventure,Racing,Puzzle;
+        Platform,Sports,Strategy,Simulation,Fighting,Adventure,Racing,Puzzle;
     }
     public VideoGame(String gameName, int gamePrice, int gameStock, String gameType) {
         this.gameName = gameName;

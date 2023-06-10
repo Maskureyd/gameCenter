@@ -1,6 +1,6 @@
 public class VideoGameTest {
     public static void main(String[] args) {
-        ShoppingSite shoppingSite = new ShoppingSite("Game Center");
+        ShoppingSite shoppingSite = new ShoppingSite("Game Center ");
 
         VideoGame game1 = new VideoGame("FIFA 22", 700, 40, VideoGame.gameTypeList.Sports.toString());
         VideoGame game2 = new VideoGame("GTA V", 500, 30, VideoGame.gameTypeList.Simulation.toString());

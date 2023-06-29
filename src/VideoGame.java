@@ -6,7 +6,7 @@ public class VideoGame {
     public enum gameTypeList{
         Platform,Sports,Strategy,Simulation,Fighting,Adventure,Racing,Puzzle;
     }
-    public VideoGame(String gameName, int gamePrice, int gameStock, String gameType) {
+    public VideoGame(String gameName, int gamePrice , int gameStock, String gameType) {
         this.gameName = gameName;
         this.gamePrice = gamePrice;
         this.gameStock = gameStock;

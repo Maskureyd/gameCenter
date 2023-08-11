@@ -8,7 +8,7 @@ public class VideoGameTest {
         shoppingSite.addVideoGame(game1);
         shoppingSite.addVideoGame(game2);
 
-        System.out.printf("Name of the game store:  %s %n", shoppingSite.getStoreName());
+        System.out.printf("Name of the game store: %s %n", shoppingSite.getStoreName());
         System.out.printf("Name of the game: %s %n", game1.getGameName());
         System.out.printf("Price of the game: %d TL %n", game1.getGamePrice());
         System.out.printf("Type of the game: %s %n", game1.getGameType());
